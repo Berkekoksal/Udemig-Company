@@ -1,0 +1,113 @@
+/**  Google Font Link  */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+.carousel .text .fa-solid {
+  margin-right: 10px;
+}
+.carousel .btn {
+  font-size: 18px;
+  background-color: black;
+  border: 2px solid black;
+  transition: all 0.5s ease;
+}
+.carousel .btn:hover {
+  color: #fe7a36;
+  background-color: transparent;
+  transform: scale(1.2);
+}
+.img-slider {
+  height: 91vh;
+  object-fit: cover;
+}
+.about {
+  background-color: #f2f2f2;
+}
+.about .line {
+  border: none;
+  border-top: 3px solid black;
+  max-width: 250px;
+  margin: auto;
+}
+.about .fas {
+  color: #262626;
+  position: relative;
+  transform: translateY(-28px);
+  font-size: 40px;
+  border: 10px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+.our-team .line {
+  border: none;
+  border-top: 3px solid black;
+  max-width: 250px;
+  margin: auto;
+}
+.our-team .fas {
+  color: #262626;
+  position: relative;
+  transform: translateY(-28px);
+  font-size: 40px;
+  border: 10px solid white;
+  background-color: white;
+}
+.team-card img {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.team-card > img:hover {
+  transform: scale(1.05);
+}
+.gallery {
+  background-color: #f2f2f2;
+}
+.gallery .line {
+  border: none;
+  border-top: 3px solid black;
+  max-width: 250px;
+  margin: auto;
+}
+.gallery .fas {
+  color: #262626;
+  position: relative;
+  transform: translateY(-28px);
+  font-size: 40px;
+  border: 10px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+.figure {
+  transition: all 0.5s;
+}
+.figure:hover {
+  transform: scale(1.05);
+}
+.contact .line {
+  border: none;
+  border-top: 3px solid black;
+  max-width: 250px;
+  margin: auto;
+}
+.contact .fas {
+  color: #262626;
+  position: relative;
+  transform: translateY(-28px);
+  font-size: 40px;
+  border: 10px solid white;
+  background-color: white;
+}
+form .btn {
+  transition: all 0.5s;
+  font-weight: bold;
+}
+form .btn:hover {
+  color: black;
+  background-color: white;
+  transform: translateX(5px);
+}
